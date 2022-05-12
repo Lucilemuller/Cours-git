@@ -1,0 +1,25 @@
+pour chaque nouveau dépot : -->
+
+--> git init
+git add *
+(git status)
+git commit -m "kjhk"
+--> git remote add origin https://github.com/Lucilemuller/TP.git
+git push -u origin master
+
+
+
+Ajouter dans les fichiers :
+
+git add *
+(git status : voir les fichiers qui ont été ajoutés)
+git commit -m "fhg"
+git push -u origin master 
+
+----------------------------------
+
+Pour travailler sur le dépot de quelqu'un :
+(récupérer les fichiers)
+git init
+git remote add origin <lien>
+git pull origin master
